@@ -1,0 +1,64 @@
+{
+  "source": {
+    "file": "gxjy-release-20261019/gxjy-release-20261019/2-SERVER/protocol/gxjy_server.py",
+    "startup_order": [
+      "load_player",
+      "ensure_starter_equips",
+      "send_login_info",
+      "send_login_pushes"
+    ]
+  },
+  "initial_save": "missing",
+  "normalized_leader": "LeaderHero_H004",
+  "starter_equipment_created": 6,
+  "save_calls_before_login": 1,
+  "hero_ids": [
+    "H002",
+    "H004"
+  ],
+  "hero_fields": {
+    "H002": [
+      "base_attr",
+      "cost",
+      "exp",
+      "favor_exp",
+      "favor_id",
+      "hero_surfaces",
+      "leader_attrs",
+      "level",
+      "skills"
+    ],
+    "H004": [
+      "base_attr",
+      "cost",
+      "exp",
+      "favor_exp",
+      "favor_id",
+      "hero_surfaces",
+      "leader_attrs",
+      "level",
+      "skills"
+    ]
+  },
+  "canonical_json": {
+    "encoding": "UTF-8",
+    "sort_keys": true,
+    "separators": [",", ":"],
+    "bytes": 6742,
+    "sha256": "f5a765da88b0fd9e263b1f482b2945f06f383dd2d20f8856f4664304613f04a4"
+  },
+  "end_state_changes": {
+    "hero_state": {
+      "H002": {"level": 1, "exp": 0, "quality": 0, "star": 0, "favor": 0},
+      "H004": {"level": 1, "exp": 0, "quality": 0, "star": 0, "favor": 0}
+    },
+    "equip_ids": [
+      "EQ1_H002",
+      "EQ1_H004",
+      "EQ2_H002",
+      "EQ2_H004",
+      "EQ3_H002",
+      "EQ3_H004"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source": {
+    "file": "gxjy-release-20261019/gxjy-release-20261019/2-SERVER/protocol/gxjy_server.py",
+    "lines": "8875-8884"
+  },
+  "request": {},
+  "initial_custom": {
+    "common": {
+      "flag": true,
+      "count": 3,
+      "nested": {
+        "x": [1, null, "a"]
+      }
+    },
+    "need_reset": {
+      "daily": false
+    }
+  },
+  "response": {
+    "result": 0,
+    "cmd": "MSG_REQ_FRONT_SETTINGS",
+    "settings": {
+      "common": {
+        "flag": true,
+        "count": 3,
+        "nested": {
+          "x": [1, null, "a"]
+        }
+      },
+      "need_reset": {
+        "daily": false
+      }
+    },
+    "version": 0
+  },
+  "state_unchanged": true
+}

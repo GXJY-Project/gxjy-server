@@ -1,0 +1,20 @@
+{
+  "http_host": "0.0.0.0",
+  "http_port": 8080,
+  "ws_host": "0.0.0.0",
+  "ws_port": 8765,
+  "gate_host": "127.0.0.1",
+  "database": {
+    "driver": "sqlite",
+    "dsn": "data/db/gxjy.sqlite",
+    "max_idle_conns": 1,
+    "max_open_conns": 1
+  },
+  "asset_root": "data/assets/bili/source/apk/assets/assets",
+  "bundle_config": "data/assets/bili/source/apk/assets/assets/resources/config.json",
+  "asset_key_env": "GXJY_ASSET_KEY",
+  "rsa_pem": "data/keys/gate.pem",
+  "rsa_json": "data/keys/server_rsa.json",
+  "protocol_map": "data/protocol/protocol_map.json",
+  "client_profile": "bili-224"
+}

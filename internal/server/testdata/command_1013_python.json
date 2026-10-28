@@ -1,0 +1,63 @@
+{
+  "source": {
+    "file": "gxjy-release-20261019/gxjy-release-20261019/2-SERVER/protocol/gxjy_server.py",
+    "lines": "8886-8898"
+  },
+  "request": {
+    "settings": {
+      "common": {
+        "replace": "new",
+        "flag": true,
+        "nested": {
+          "x": [1, null, "a"]
+        }
+      },
+      "need_reset": {
+        "daily": true
+      },
+      "ignored_group": {
+        "bad": 1
+      }
+    }
+  },
+  "initial_custom": {
+    "common": {
+      "keep": 1,
+      "replace": "old"
+    },
+    "need_reset": {
+      "daily": false
+    }
+  },
+  "response": {
+    "result": 0,
+    "cmd": "MSG_SAVE_FRONT_SETTINGS",
+    "settings": {
+      "common": {
+        "keep": 1,
+        "replace": "new",
+        "flag": true,
+        "nested": {
+          "x": [1, null, "a"]
+        }
+      },
+      "need_reset": {
+        "daily": true
+      }
+    },
+    "version": 0
+  },
+  "final_custom": {
+    "common": {
+      "keep": 1,
+      "replace": "new",
+      "flag": true,
+      "nested": {
+        "x": [1, null, "a"]
+      }
+    },
+    "need_reset": {
+      "daily": true
+    }
+  }
+}

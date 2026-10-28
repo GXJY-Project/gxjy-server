@@ -1,0 +1,20 @@
+{
+  "target": "bili-224",
+  "source": "FightTogetherModel constructor 261209-261222 and synchronize 261242-261258",
+  "source_sha256": "89513c054d788a55617a86b4820578019b0135e5f3aeb86692bb76b1af39d5c6",
+  "boundary": "maintainer approved initial empty state only; not official server quota or boss rules",
+  "payload": {
+    "result": 0,
+    "cmd": "MSG_GET_FT_INFO",
+    "playerFTInfo": {
+      "maxCoin": 0,
+      "gainCoin": 0,
+      "maxDifficultyId": "",
+      "assistNum": 0,
+      "resetTime": {},
+      "collaborator": []
+    },
+    "bossList": [],
+    "actBossIds": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "source_sha256": "a8a75655aafdf51a7b0cc397e64b9d3efe789367311cc9ae80b69a4b9901cda0",
+  "provenance": "B 服更新主脚本 data_pack；固定随机数、合成账号与时间；无真实会话",
+  "key_hex": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "cases": [
+    {
+      "name": "first",
+      "command": 101,
+      "sequence": 1,
+      "rsa_length": 128,
+      "message": {
+        "msg": {
+          "openid": "synthetic-user",
+          "token": "synthetic-token",
+          "is_reconnected": false
+        },
+        "seq": 1
+      },
+      "packet_hex": "018001514042c6eea55961fd4a299bd0c05d9fe2e6cc5bde5f712706c4614f6c3fe6b98083a4b41383d417cee4c246204dd25bac098c6dcf1c1820fa98dbff8c6c7d6a0373d8b24362b54c351d19dd87b1c00d11faf901727ba9455a1bbe0dc0e82c207df30b2fc426ccc150558b560469c5feb2ea1649823e78d3b19c1330dbbd8b0b14bb7eac33812d5a92f5dbe4cdfd3b473d18482f44e6a27bc618a3df78d98a4fcf5d5c9628cd19c2274fd8974589221b9fb034ba55a098a192a118cc459f946e0cb6062d43581a08eedde85a37bf61307686cea62f9c458981b17d92450123456789abcdef01234567"
+    },
+    {
+      "name": "later",
+      "command": 901,
+      "sequence": 2,
+      "rsa_length": 0,
+      "message": {
+        "msg": {
+          "clientTimestamp": 1700000000000
+        },
+        "seq": 2
+      },
+      "packet_hex": "01004c9ea4566909ef929a3348a0eb46b398e66352590c45f2e891551577ede17be43ec028abad94c972d6cba462d8681fd1b47321f5e3b2349e0d8789abcdef0123456789abcdef"
+    },
+    {
+      "name": "reconnect",
+      "command": 101,
+      "sequence": 1,
+      "rsa_length": 128,
+      "message": {
+        "msg": {
+          "is_reconnected": true
+        },
+        "seq": 3
+      },
+      "packet_hex": "018001514042c6eea55961fd4a299bd0c05d9fe2e6cc5bde5f712706c4614f6c3fe6b98083a4b41383d417cee4c246204dd25bac098c6dcf1c1820fa98dbff8c6c7d6a0373d8b24362b54c351d19dd87b1c00d11faf901727ba9455a1bbe0dc0e82c207df30b2fc426ccc150558b560469c5feb2ea1649823e78d3b19c1330dbbd8b0b14bb7eac33812d5a92f5dbe6c5fb387d21144fee59f1a96cda18b375b8879a4da9bd282481257c47c5628842038808e2120123456789abcdef01234567"
+    }
+  ],
+  "server": {
+    "command": 101,
+    "sequence": 7,
+    "message": {
+      "result": 0,
+      "synthetic": true
+    },
+    "nonce_hex": "000102030405060708090a0b",
+    "frame_hex": "3701edc430c164e9e85111330808048a886b227d2373768e5856b8e8f1c7bce6a36150781f15508be1633ad4000102030405060708090a0b"
+  }
+}

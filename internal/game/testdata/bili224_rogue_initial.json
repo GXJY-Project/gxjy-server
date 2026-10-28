@@ -1,0 +1,29 @@
+{
+  "source": "B224 original-index.js RoguelikeModel constructor 403801-403836, synchronizeNode 403858-403874, synchronize 403875-403918",
+  "source_sha256": "89513c054d788a55617a86b4820578019b0135e5f3aeb86692bb76b1af39d5c6",
+  "status": "maintainer approved initial-state adaptation; client initial values only; not official game rules",
+  "payload": {
+    "result": 0,
+    "cmd": "MSG_REQUEST_ROGUE_INFO",
+    "remain_times": 0,
+    "reset_time": -1,
+    "week_score": 0,
+    "week_score_max": 0,
+    "received_score": [],
+    "unlock_talent": [],
+    "cur_gold": 0,
+    "cur_hp": 0,
+    "hp_max": 0,
+    "carry_hero": "",
+    "hero_property": {},
+    "cur_pace": {"difficulty": "", "chapter": "", "node": ""},
+    "cur_anger": 0,
+    "max_anger": 0,
+    "trophy": [],
+    "difficulty": {},
+    "carry_hero_map": {},
+    "skill_hero": [],
+    "wish_hero": [],
+    "pictorial": []
+  }
+}
